@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,25 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-segment-button {
+  background-color: var(--ion-color-dark) !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: var(--ion-color-primary) !important;
+}
+.titulo-noticias {
+  font-size: 12px;
+  color: darkblue;
+}
+
+.action-dark , .action-sheet-group {
+  background-color: var(--ion-color-dark)  !important;
+  color: white !important;
+}
+
+.action-dark ion-icon {
+  color: white !important;
+}

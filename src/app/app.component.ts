@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DataLocalService } from './services/data-local.service';
+import { NoticiasService } from './services/noticias.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor( private noticiasService:NoticiasService , private datalocaService:DataLocalService) {
+
+    
+  }
 }

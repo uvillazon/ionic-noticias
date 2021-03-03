@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // apiKey: 'a4ec4f7c20154b57876d25517929eaf2' //ubaldo
+  apiKey : '0a99f055ecd14457b41a04b7b79824c2'  //aron
 };
 
 /*
